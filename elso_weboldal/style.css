@@ -1,0 +1,86 @@
+body {
+  background-color: #488ccd;
+  /* padding: bleső margó */
+  padding: 50px;
+  width: 800px;
+  color: white;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.page-title {
+  font-size: 50px;
+  font-weight: 200;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.main-menu {
+  background-color: #284c80;
+  width: 800px;
+  padding: 0;
+  /* ha a padding kettő értéket kap akkor az első az alul-fölül */
+  /* a második pedig jobbra-balra */
+  /* padding: 20px 0; */
+}
+
+.main-menu-item {
+  /* az inline elemnek nem lehet beállítani magasságot! */
+  /* ezért inline-block-ot használunk */
+  display: inline-block;
+}
+
+/* main-menu-item-en belüli a taget választjuk ki */
+.main-menu-item a {
+  display: block;
+  color: rgb(188,248,255);
+  text-decoration: none;
+  margin-left: 20px;
+  padding: 20px 0;
+}
+
+/* hover: amikor fölé visszük az egeret... */
+.main-menu-item a:hover {
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.content-image-container {
+  text-align: center;  
+}
+
+figcaption {
+  font-size: 12px;
+  color: #e6e6e6;
+  font-style: italic;
+}
+
+h1 {
+  font-size: 35px;
+  color: rgb(237, 245, 255);
+  margin-bottom: 5px;
+  margin-top: 100px;
+}
+
+.created-date {
+  margin-bottom: 40px;
+  font-style: italic;
+  color: #284c80;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.content-lead,
+.content-body {
+  line-height: 1.7;
+}
+
+.content-lead {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+.content-body {
+  font-size: 18px;
+}
