@@ -1,0 +1,23 @@
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: rgb(242, 237, 228);
+  margin: 0;
+}
+
+header,
+main {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+header {
+  /* amit display flex-be rakunk az flex container,  */
+  /* a közvetlen gyerekei ennek az elemnek flex item-ek lesznek! */
+  display: flex;
+}
