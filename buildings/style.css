@@ -1,0 +1,31 @@
+.offscreen {
+  clip-path: inset(100%);
+  clip: rect(1px 1px 1px 1px); /* IE 6/7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; /* added line */
+  width: 1px;
+}
+
+html {
+  /* font-size: 16px; */
+
+  /* font-size: 100% */
+
+  /* 10 / 16 = 0.625 */
+
+  font-size: 62.5%;
+
+  /* innentől 1 rem = 10px */
+  font-family: 'Heebo', sans-serif;
+  background-color: #333448;
+}
+
+body {
+  margin: 0;
+  background: url('./img/banner.jpg') no-repeat center 50px;
+  background-size: 100%;
+  height: 1500px;
+}
