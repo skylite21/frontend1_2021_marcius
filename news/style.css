@@ -173,3 +173,19 @@ main {
 .continue-to-article i {
   padding-left: 0.8rem;
 }
+
+/* min-width: 960px  -> 960px fölött */
+
+/* @media (max-width: 960px) and (min-width: 600px)... -> 960 és 600 px között */
+
+/* @media screen (max-width: 960px)... -> @media (max-width: 960px)...
+
+/* 960px alatt... */
+@media (max-width: 960px) {
+   header {
+    flex-direction: column;
+   } 
+   .logo {
+    margin-right: 0;
+   }
+}
