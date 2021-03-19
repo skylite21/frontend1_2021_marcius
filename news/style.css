@@ -50,6 +50,11 @@ main {
   letter-spacing: 0.3rem;
 }
 
+.menu-checkbox,
+.toggle-label {
+  display: none;
+}
+
 .menu-container {
   /* ezt csak flex item-ekre lehet rátenni: */
   flex-grow: 1;
@@ -189,3 +194,51 @@ main {
     margin-right: 0;
    }
 }
+
+@media (max-width: 900px) {
+  .main-article-text {
+    position: static;
+  }
+}
+
+@media (max-width: 700px) {
+  header {
+    margin-top: 2rem;
+  }
+
+  .logo {
+    width: 80%;
+  }
+
+  .menu {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .menu-item {
+    width: 100%;
+  }
+
+  .toggle-label {
+    font-size: 2rem;   
+    margin-left: auto;
+    cursor: pointer;
+    margin-bottom: -65px;
+    display: block;
+  }
+
+  .menu-item a {
+    height: 3rem;
+  }
+
+  .menu-container {
+    display: none;
+  }
+
+  .menu-checkbox:checked ~ .menu-container {
+    display: flex;
+  }
+
+}
+
+
