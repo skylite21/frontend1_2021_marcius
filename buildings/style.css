@@ -37,7 +37,7 @@ body {
   height: 1500px;
   position: relative;
   right: 0;
-  transition: right 0.5s ease-in-out;
+  transition: right .5s ease-in-out;
   overflow-x: hidden;
 }
 
@@ -138,7 +138,7 @@ header {
 .search-bar {
   /* ehhez képest akarjuk pozicionálni a kereső gombot! */
   position: relative;
-  flex-grow: 0.5;
+  flex-grow: .5;
   order: 3;
 }
 
@@ -187,12 +187,12 @@ header {
   text-align: center;
   font-weight: bold;
   background-color: rgb(92, 138, 208);
-  background-color: rgba(36, 53, 78, 0.34);
+  background-color: rgba(36, 53, 78, .34);
   width: 80vw;
   margin: 0 auto;
   padding: 6rem 0;
   border: 1px solid rgb(174, 255, 255);
-  border: 1px solid rgba(174, 255, 255, 0.68);
+  border: 1px solid rgba(174, 255, 255, .68);
   color: white;
 }
 
