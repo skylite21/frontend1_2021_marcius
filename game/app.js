@@ -107,3 +107,23 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
 });
 
 document.querySelector('.btn-new').addEventListener('click', init);
+
+
+// függvény deklarálás
+function sayHello() {
+  window.alert('hello player!');
+}
+
+// függvény meghívása
+sayHello();
+
+// a és b a függvény bemeneti paraméterei
+function addTwoNumbers(x, y) {
+  const eredmeny = x + y;
+  // a függvény vissza adja az eredmeny változó értékét
+  return eredmeny;
+}
+
+const eredmeny = addTwoNumbers(3, 4);
+console.log(eredmeny);
+
